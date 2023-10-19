@@ -1,0 +1,342 @@
+[debug] [2023-10-19T09:39:54.296Z] ----------------------------------------------------------------------
+[debug] [2023-10-19T09:39:54.298Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IDE_PI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-19T09:39:54.299Z] CLI Version:   12.7.0
+[debug] [2023-10-19T09:39:54.299Z] Platform:      win32
+[debug] [2023-10-19T09:39:54.300Z] Node Version:  v18.18.0
+[debug] [2023-10-19T09:39:54.301Z] Time:          Thu Oct 19 2023 11:39:54 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2023-10-19T09:39:54.301Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-19T09:39:54.409Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-19T09:39:54.410Z] > authorizing via signed-in user (pierreide10@gmail.com)
+[debug] [2023-10-19T09:39:54.410Z] [iam] checking project tplprsd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-19T09:39:54.413Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions [none]
+[debug] [2023-10-19T09:39:54.413Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions x-goog-quota-user=projects/tplprsd
+[debug] [2023-10-19T09:39:54.413Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:39:54.713Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions 200
+[debug] [2023-10-19T09:39:54.713Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:39:54.715Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd [none]
+[debug] [2023-10-19T09:39:55.099Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd 200
+[debug] [2023-10-19T09:39:55.099Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd {"projectId":"tplprsd","projectNumber":"894017109239","displayName":"TPLPRS","name":"projects/tplprsd","resources":{"hostingSite":"tplprsd","realtimeDatabaseInstance":"tplprsd-default-rtdb"},"state":"ACTIVE","etag":"1_586758a2-130e-4757-a0d3-b257eef33295"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Linting and checking validity of types ...
+
+[info] Failed to compile.
+
+
+[info] ./src/pages/merch/[uuid].tsx:206:15
+Type error: JSX elements cannot have multiple attributes with the same name.
+
+  204 |               size={"lg"}
+  205 |               py={"7"}
+> 206 |               rounded={"lg"}
+      |               ^
+  207 |               bg={useColorModeValue("gray.900", "gray.50")}
+  208 |               color={useColorModeValue("white", "gray.900")}
+  209 |               textTransform={"uppercase"}
+
+[debug] [2023-10-19T09:40:29.079Z] Error: ENOENT: no such file or directory, open 'C:\Users\IDE_PI\Documents\TPSave\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-19T09:41:36.980Z] ----------------------------------------------------------------------
+[debug] [2023-10-19T09:41:36.983Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IDE_PI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-19T09:41:36.984Z] CLI Version:   12.7.0
+[debug] [2023-10-19T09:41:36.984Z] Platform:      win32
+[debug] [2023-10-19T09:41:36.984Z] Node Version:  v18.18.0
+[debug] [2023-10-19T09:41:36.987Z] Time:          Thu Oct 19 2023 11:41:36 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2023-10-19T09:41:36.987Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-19T09:41:37.110Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-19T09:41:37.111Z] > authorizing via signed-in user (pierreide10@gmail.com)
+[debug] [2023-10-19T09:41:37.111Z] [iam] checking project tplprsd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-19T09:41:37.114Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions [none]
+[debug] [2023-10-19T09:41:37.115Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions x-goog-quota-user=projects/tplprsd
+[debug] [2023-10-19T09:41:37.115Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:41:37.870Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions 200
+[debug] [2023-10-19T09:41:37.871Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:41:37.874Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd [none]
+[debug] [2023-10-19T09:41:38.219Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd 200
+[debug] [2023-10-19T09:41:38.220Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd {"projectId":"tplprsd","projectNumber":"894017109239","displayName":"TPLPRS","name":"projects/tplprsd","resources":{"hostingSite":"tplprsd","realtimeDatabaseInstance":"tplprsd-default-rtdb"},"state":"ACTIVE","etag":"1_33cf7e9a-2fed-4612-b60f-ff4b77d2abaa"}
+[debug] [2023-10-19T09:43:29.115Z] ----------------------------------------------------------------------
+[debug] [2023-10-19T09:43:29.117Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IDE_PI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-19T09:43:29.118Z] CLI Version:   12.7.0
+[debug] [2023-10-19T09:43:29.118Z] Platform:      win32
+[debug] [2023-10-19T09:43:29.118Z] Node Version:  v18.18.0
+[debug] [2023-10-19T09:43:29.120Z] Time:          Thu Oct 19 2023 11:43:29 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2023-10-19T09:43:29.120Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-19T09:43:29.249Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-19T09:43:29.250Z] > authorizing via signed-in user (pierreide10@gmail.com)
+[debug] [2023-10-19T09:43:29.250Z] [iam] checking project tplprsd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-19T09:43:29.253Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions [none]
+[debug] [2023-10-19T09:43:29.253Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions x-goog-quota-user=projects/tplprsd
+[debug] [2023-10-19T09:43:29.253Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:43:29.521Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions 200
+[debug] [2023-10-19T09:43:29.521Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:43:29.522Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd [none]
+[debug] [2023-10-19T09:43:29.878Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd 200
+[debug] [2023-10-19T09:43:29.878Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd {"projectId":"tplprsd","projectNumber":"894017109239","displayName":"TPLPRS","name":"projects/tplprsd","resources":{"hostingSite":"tplprsd","realtimeDatabaseInstance":"tplprsd-default-rtdb"},"state":"ACTIVE","etag":"1_01343bbb-e9b4-473c-b043-0e22ed78df82"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+./src/components/Main.tsx
+17:11  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/7) ...
+
+[info] TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at __WEBPACK_DEFAULT_EXPORT__ (C:\Users\IDE_PI\Documents\TPSave\.next\server\pages\merch\[uuid].js:1:3735)
+    at Wc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:68:44)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:70:253)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:74:209)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at $c (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:78:98)
+    at bd (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:77:404)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:217)
+
+Error occurred prerendering page "/merch/[uuid]". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at __WEBPACK_DEFAULT_EXPORT__ (C:\Users\IDE_PI\Documents\TPSave\.next\server\pages\merch\[uuid].js:1:3735)
+    at Wc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:68:44)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:70:253)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:74:209)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at $c (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:78:98)
+    at bd (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:77:404)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:217)
+
+[info]    Generating static pages (1/7) 
+
+[info]    Generating static pages (3/7) 
+
+[info]    Generating static pages (5/7) 
+
+[info]  ✓ Generating static pages (7/7) 
+
+[info] 
+> Export encountered errors on following paths:
+	/merch/[uuid]
+
+[debug] [2023-10-19T09:44:31.663Z] Error: ENOENT: no such file or directory, open 'C:\Users\IDE_PI\Documents\TPSave\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-19T09:45:18.284Z] ----------------------------------------------------------------------
+[debug] [2023-10-19T09:45:18.287Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IDE_PI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-19T09:45:18.287Z] CLI Version:   12.7.0
+[debug] [2023-10-19T09:45:18.288Z] Platform:      win32
+[debug] [2023-10-19T09:45:18.288Z] Node Version:  v18.18.0
+[debug] [2023-10-19T09:45:18.290Z] Time:          Thu Oct 19 2023 11:45:18 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2023-10-19T09:45:18.290Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-19T09:45:18.417Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-19T09:45:18.418Z] > authorizing via signed-in user (pierreide10@gmail.com)
+[debug] [2023-10-19T09:45:18.418Z] [iam] checking project tplprsd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-19T09:45:18.422Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions [none]
+[debug] [2023-10-19T09:45:18.422Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions x-goog-quota-user=projects/tplprsd
+[debug] [2023-10-19T09:45:18.422Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:45:18.712Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions 200
+[debug] [2023-10-19T09:45:18.713Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:45:18.714Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd [none]
+[debug] [2023-10-19T09:45:19.119Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd 200
+[debug] [2023-10-19T09:45:19.119Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd {"projectId":"tplprsd","projectNumber":"894017109239","displayName":"TPLPRS","name":"projects/tplprsd","resources":{"hostingSite":"tplprsd","realtimeDatabaseInstance":"tplprsd-default-rtdb"},"state":"ACTIVE","etag":"1_01343bbb-e9b4-473c-b043-0e22ed78df82"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+./src/components/Main.tsx
+17:11  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/7) ...
+
+[info] TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at __WEBPACK_DEFAULT_EXPORT__ (C:\Users\IDE_PI\Documents\TPSave\.next\server\pages\merch\[uuid].js:1:3735)
+    at Wc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:68:44)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:70:253)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:74:209)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at $c (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:78:98)
+    at bd (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:77:404)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:217)
+
+Error occurred prerendering page "/merch/[uuid]". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at __WEBPACK_DEFAULT_EXPORT__ (C:\Users\IDE_PI\Documents\TPSave\.next\server\pages\merch\[uuid].js:1:3735)
+    at Wc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:68:44)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:70:253)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:74:209)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at $c (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:78:98)
+    at bd (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:77:404)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:217)
+
+[info]    Generating static pages (1/7) 
+
+[info]    Generating static pages (3/7) 
+
+[info]    Generating static pages (5/7) 
+
+[info]  ✓ Generating static pages (7/7) 
+
+[info] 
+
+[info] > Export encountered errors on following paths:
+	/merch/[uuid]
+
+[debug] [2023-10-19T09:46:03.846Z] Error: ENOENT: no such file or directory, open 'C:\Users\IDE_PI\Documents\TPSave\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-19T09:47:18.664Z] ----------------------------------------------------------------------
+[debug] [2023-10-19T09:47:18.666Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IDE_PI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-19T09:47:18.667Z] CLI Version:   12.7.0
+[debug] [2023-10-19T09:47:18.667Z] Platform:      win32
+[debug] [2023-10-19T09:47:18.667Z] Node Version:  v18.18.0
+[debug] [2023-10-19T09:47:18.669Z] Time:          Thu Oct 19 2023 11:47:18 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2023-10-19T09:47:18.669Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-19T09:47:18.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-19T09:47:18.937Z] > authorizing via signed-in user (pierreide10@gmail.com)
+[debug] [2023-10-19T09:47:18.937Z] [iam] checking project tplprsd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-19T09:47:18.940Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions [none]
+[debug] [2023-10-19T09:47:18.940Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions x-goog-quota-user=projects/tplprsd
+[debug] [2023-10-19T09:47:18.941Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:47:19.271Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions 200
+[debug] [2023-10-19T09:47:19.271Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:47:19.272Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd [none]
+[debug] [2023-10-19T09:47:19.578Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd 200
+[debug] [2023-10-19T09:47:45.930Z] ----------------------------------------------------------------------
+[debug] [2023-10-19T09:47:45.932Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IDE_PI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-19T09:47:45.933Z] CLI Version:   12.7.0
+[debug] [2023-10-19T09:47:45.933Z] Platform:      win32
+[debug] [2023-10-19T09:47:45.933Z] Node Version:  v18.18.0
+[debug] [2023-10-19T09:47:45.935Z] Time:          Thu Oct 19 2023 11:47:45 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2023-10-19T09:47:45.935Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-19T09:47:46.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-19T09:47:46.057Z] > authorizing via signed-in user (pierreide10@gmail.com)
+[debug] [2023-10-19T09:47:46.057Z] [iam] checking project tplprsd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-19T09:47:46.061Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions [none]
+[debug] [2023-10-19T09:47:46.061Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions x-goog-quota-user=projects/tplprsd
+[debug] [2023-10-19T09:47:46.061Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:47:46.795Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions 200
+[debug] [2023-10-19T09:47:46.795Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tplprsd:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-19T09:47:46.796Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd [none]
+[debug] [2023-10-19T09:47:47.173Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd 200
+[debug] [2023-10-19T09:47:47.173Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tplprsd {"projectId":"tplprsd","projectNumber":"894017109239","displayName":"TPLPRS","name":"projects/tplprsd","resources":{"hostingSite":"tplprsd","realtimeDatabaseInstance":"tplprsd-default-rtdb"},"state":"ACTIVE","etag":"1_01343bbb-e9b4-473c-b043-0e22ed78df82"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+./src/components/Main.tsx
+17:11  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Collecting page data ...
+
+[info]    Generating static pages (0/7) ...
+
+[info] TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at __WEBPACK_DEFAULT_EXPORT__ (C:\Users\IDE_PI\Documents\TPSave\.next\server\pages\merch\[uuid].js:1:3734)
+    at Wc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:68:44)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:70:253)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:74:209)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at $c (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:78:98)
+    at bd (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:77:404)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:217)
+
+Error occurred prerendering page "/merch/[uuid]". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at __WEBPACK_DEFAULT_EXPORT__ (C:\Users\IDE_PI\Documents\TPSave\.next\server\pages\merch\[uuid].js:1:3734)
+    at Wc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:68:44)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:70:253)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at Zc (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:74:209)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:89)
+    at $c (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:78:98)
+    at bd (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:77:404)
+    at Z (C:\Users\IDE_PI\Documents\TPSave\node_modules\react-dom\cjs\react-dom-server.browser.production.min.js:76:217)
+
+[info]    Generating static pages (1/7) 
+
+[info]    Generating static pages (3/7) 
+
+[info]    Generating static pages (5/7) 
+
+[info]  ✓ Generating static pages (7/7) 
+
+[info] 
+
+[info] > Export encountered errors on following paths:
+	/merch/[uuid]
+
+[debug] [2023-10-19T09:48:45.230Z] Error: ENOENT: no such file or directory, open 'C:\Users\IDE_PI\Documents\TPSave\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
