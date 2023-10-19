@@ -42,7 +42,7 @@ const page = (props: any) => {
     (article) => article.uuid === UUID
   ) as ArticleItem;
 
-  if (typeof window !== "undefined" && !selectedArticle) {
+  if (!selectedArticle) {
     router.push("/merch");
     return null;
   }
