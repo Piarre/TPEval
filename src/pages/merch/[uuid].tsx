@@ -43,10 +43,11 @@ const page = (props: any) => {
   ) as ArticleItem;
 
   if (!selectedArticle) {
-    <>
-      <div><a><NavBar/></a></div>
-    </>
-    return null;
+    return (
+      <>
+        <NavBar />
+      </>
+    );
   }
 
   return (
