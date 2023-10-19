@@ -59,10 +59,10 @@ export default function Footer() {
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align={"flex-start"}>
             <ListHeader>NexTrend</ListHeader>
-            <Box as="a" href={"#"}>
-              A props de nous
+            <Box as="a" href={"/autres/mentions-legales"}>
+              Mentions légales
             </Box>
-            <Box as="a" href={"#"}>
+            <Box as="a" href={"/autres/nous-contacter"}>
               Nous contacter
             </Box>
           </Stack>
@@ -80,17 +80,6 @@ export default function Footer() {
           align={{ md: "center" }}
         >
           <Text>© {new Date().getFullYear()} Pierre IDE.</Text>
-          <Stack direction={"row"} spacing={6}>
-            <SocialButton label={"Twitter"} href={"#"}>
-              <FaTwitter />
-            </SocialButton>
-            <SocialButton label={"YouTube"} href={"#"}>
-              <FaYoutube />
-            </SocialButton>
-            <SocialButton label={"Instagram"} href={"#"}>
-              <FaInstagram />
-            </SocialButton>
-          </Stack>
         </Container>
       </Box>
     </Box>

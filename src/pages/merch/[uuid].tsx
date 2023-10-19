@@ -43,7 +43,9 @@ const page = (props: any) => {
   ) as ArticleItem;
 
   if (!selectedArticle) {
-    router.push("/merch");
+    <>
+      <div><a><NavBar/></a></div>
+    </>
     return null;
   }
 
